@@ -11,4 +11,4 @@ fastapi
 pydantic
 fastapi.responses 
 fastapi.exceptions 
-
+streamlit
