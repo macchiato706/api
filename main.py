@@ -100,7 +100,7 @@ def sales(product: Product, response: Response):
     
     return {"name": product.name, "amount": product.amount, "price": product.price}
 
-
+ 
 
 @app.get("/v1/sales")
 def check_sales():

@@ -1,0 +1,13 @@
+streamlit
+requests
+matplotlib.pyplot
+os
+typing
+contextlib
+math
+uvicorn
+sqlite3
+fastapi
+pydantic
+fastapi.responses 
+fastapi.exceptions 

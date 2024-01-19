@@ -42,7 +42,8 @@ if submit_sales:
 st.write("## Stocks Information")
 col1, col2 = st.columns(2)
 
-with col1:
+with col1: 
+    
     if st.button("Get All Stock Information"):
        response = requests.get(f"{API_ENDPOINT}/v1/stocks")
     # APIレスポンスの表示
